@@ -154,7 +154,7 @@ public class ProductController {
 	@RequestMapping("delete_product.do")
 	public String delete_product(int p_idx) {
 		MemberVO memberVO = (MemberVO) session.getAttribute("account");
-		if (memberVO.getM_auth() == 1 || memberVO == null) {
+		if (memberVO.getM_auth() != 1 || memberVO == null) {
 			return "redirect:auth_check.do";
 		}
 		int res = product_dao.delete_product(p_idx);

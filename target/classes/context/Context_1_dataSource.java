@@ -18,5 +18,4 @@ public class Context_1_dataSource {
 		ds.setPassword("1111");
 		return ds;
 	}
-
 }

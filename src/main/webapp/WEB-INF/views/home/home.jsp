@@ -109,8 +109,9 @@
 			</div>
 		</main>
 		<footer>
-			<div>
-				대충 푸터
+			<div style="height:100%; color: gray; display: flex; flex-flow:column; gap: 36px; justify-content:center;">
+				<p>Korea IT Academy 평일 자바 팀 프로젝트</p>
+				<p>김성민, 윤정현, 이진욱, 한재웅</p>
 			</div>
 		</footer>
 	</body>
